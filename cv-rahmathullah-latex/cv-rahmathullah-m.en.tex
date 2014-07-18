@@ -1,0 +1,132 @@
+\documentclass{resume}
+
+\renewcommand{\categoryfont}{\sc}
+
+%
+% set the space used for category titles here:
+% use the same value for oddsidemargin and marginparwidth [the latter 
+% 		will be reset to account for marginparsep]
+% 
+\setlength{\oddsidemargin}{1in}
+\setlength{\marginparwidth}{1in}
+% 
+% calculate other dimensions [textwidth and evensidemargin] 
+% in function of oddsidemargin and marginparwidth: 
+% would be nicer to put in the class file...
+%
+\addtolength{\marginparwidth}{-\marginparsep}
+ \setlength{\evensidemargin}{\oddsidemargin}
+ \setlength{\textwidth}{\paperwidth}
+ \addtolength{\textwidth}{-2in}
+ \addtolength{\textwidth}{-2\oddsidemargin}
+ \addtolength{\textwidth}{\marginparwidth}
+ \addtolength{\textwidth}{\marginparsep}
+%
+%
+\setlength{\topmargin}{-0.5in}
+%
+%
+\renewcommand{\labelcitem}{$\diamond$}
+\renewcommand{\labelitemi}{$\cdot$}
+\newcommand{\first}{$1^{\mbox{\scriptsize st}}$\ }
+\newcommand{\second}{$2^{\mbox{\scriptsize nd}}$\ }
+\newcommand{\third}{$3^{\mbox{\scriptsize rd}}$\ }
+
+\author{Rahmathullah M}
+% ------ Address --------------------------------------------------------
+
+\address{Front End Developer\\
+  Nuevalgo Solutions Pvt Ltd\\
+  Infopark, Trichur, Kerala\\
+  {\em Ph:} (+91)-9895-63-9860}{
+  {\em email:} \mbox{\small\tt rahmathm1@gmail.com}\\
+  {\em github:} \mbox{\small\tt github.com/rahmathm1}\\
+  {\em linkedin:} \mbox{\small\tt linkedin.com/in/rahmathm1}}
+
+\begin{document}
+\maketitle
+
+% --------- Research ----------------------------------------------------
+
+%\begin{category}{Research interests}
+%  \citemnobullet NoSQL databases, Android application development,
+%  Test Driven Development, development of Ruby Gems, Design Patterns.
+%\end{category}
+
+\begin{category}{Technical Skills}
+  \citembullet {\it Operating Systems}: GNU/Linux, Mac OSX, Microsoft Windows.
+  \citembullet {\it Programming Languages}: JavaScript, HTML5, CSS3, Java-Android, C\# .NET, PHP.
+  \citembullet {\it Frameworks}: AngularJS, BackboneJS, jQuery, jQuery Mobile, PHP Codeigniter - REST Server.
+  \citembullet {\it Databases}: MySQL, MS SQL Server.
+  \citembullet {\it Tools}: Phonegap CLI, Grunt, Yeoman, Eclipse, Dreamweaver, Photoshop, SublimeText2
+  \citembullet {\it Version Control}: Git, SVN.
+  \citembullet {\it Specialities}: JavaScript, HTML5 mobile application development, web services, interested in TDD, polyglot programmer.
+\end{category}
+
+% -------- Work experience --------------------------------------------
+
+\begin{category}{Work \\experience}
+  \citem{Nuevalgo Solutions Private Limited, Infopark, Trichur}
+  \citemnobullet \textbf{Front End Developer} \hfill \textbf{Nov 2012 -- present}
+  \citemnobullet Nuevalgo solutions is a service oriented company set up by a team of highly-experienced technology professionals. \\Nuevalgo practices Extreme Programming and Continuous
+  Delivery to rapidly ship quality software. Ruby on Rails, HTML5, PHP, .Net, Android and iOS are the technologies of choice.
+  \begin{itemize}
+  \item \textbf{EBook Reader} : This is a bilingual SPA which uses {\em Angular JS, jQuery, EPub.js, Bing Translation, Thirdparty plugins}. \textbf{Role}: {\em Team lead}. 
+  \item \textbf{Online Store} : The is a social commerce application which allow users to join together using their social media network and get good deals by utilizing collective power of groups buying. The initial target will be UAE, Saudi Arabia and India. Developed using {\em BackboneJS, jQuery and RESTFul API}. \textbf{Role}: {\em Team lead}.
+  \item \textbf{IdealHomes Realestate}: Android and iOS using PhoneGap, Property management system for property Listing, contact the agent, request Viewing, image gallery, etc. Using {\em Phonegap, Backbone.js, jQuery, HTML5, CSS3}. \textbf{Role}: {\em Team lead}.
+  \item \textbf{iMenu} {\em Feb 2012 - Jul 2012}: A Point of sales application for an ERP Product. Developed using {\em Phonegap, Backbone.js, jQuery, HTML5, CSS3}. \textbf{Role}: {\em Developer}.
+  \item \textbf{Taskforces ERP Mobile Version} {\em Feb 2011 - Jun 2011}:A mobile version of an existing desktop ERP product, named Taskforces ERP. Includes. HR and Finance Modules of the desktop app. Using{\em
+      Phonegap, jQuery Mobile, PHP for API}. \textbf{Role}: {\em Developer}. 
+  \end{itemize}
+  \citem{Reubro International} 
+  \citemnobullet \textbf{Software Programmer Trainee} \hfill \textbf{Jun 2012 -- Oct 2012}
+  \citemnobullet Reubro International designs and develops Mobile applications (iOS, Android and Blackberry), Web applications and domain specific software in multiple platforms using the latest high end technology.
+  \begin{itemize} 
+  \item \textbf{What’s This? (Game)}: An android game using {\em Android, SQLite}. \textbf{Role}: {\em Developer}.
+  \item \textbf{Portafare™}:  An android app that allows you to book, buy, organize and present electronic tickets for ground transportation using {\em Android and SQLite}. \textbf{Role}: {\em Programmer}.
+  \end{itemize}
+\end{category}
+
+% -------- Awards & Honours ---------------------------------------
+
+\begin{category}{Awards \&\\ Honours}
+  \citem{``Star of Nuevalgo''}, {\em Nuevalgo Solutions Private Limited}. \hfill \textbf{2013}
+  \citem{``Special Momento''}, {\em  In in recognition of design contributions for National Conference held at Fisat, Angamaly}. \hfill \textbf{2012}
+  \citem{``IInd in  Web  Designing''}, {\em Fisat Angamaly}. \hfill \textbf{2012}
+  \citem{``IIIrd in  Web  Designing''}, {\em  Naipunnya  Institute  of  Management  and  Information  Technology, Pongam}. \hfill \textbf{2012}
+\end{category}
+
+% ------- Education ---------------------------------------------------
+
+\begin{category}{Education}
+  \citem{Master of Computer Applications (72\%)} \hfill \textbf{2009 -- 20012}
+  \citemnobullet Federal Institute of Science And Technology, Kerala.
+  \citem{Bachelor  Of  Computer  Science  (70\%)} \hfill \textbf{2005 -- 2008}
+  \citemnobullet  EMEA College of Arts \& Science, Kondotty, Kerala.
+  \citem{Higher Secondary Education (67\%)} \hfill \textbf{2003 -- 2005}
+  \citemnobullet PPM Higher Secondary School, Kondotty, Kerala.
+  \citem{SSLC (74\%)} \hfill \textbf{2003}
+  \citemnobullet PPM Higher Secondary School, Kondotty, Kerala.\end{category}
+  
+% -------- Opensource -------------------------------------------
+
+%\begin{category}{Opensource}
+%  \citemnobullet List of major opensource contributions. Refer GitHub for source code.
+%  \citembullet \textbf{time\_diff}: Ruby Gem which calculates the difference between two times.
+%  \citembullet \textbf{OrphanRecords}: Ruby Gem which show/delete the orphan records in your Rails application
+%  \citembullet \textbf{who-is-next}: An android application which helps us to keep in touch with friends and relatives.
+%\end{category}
+
+% -------- Reference --------------------------------------------
+
+\begin{category}{Reference}
+  \citemnobullet \\
+  \begin{tabular}{ll}Abhilash MA&Shafeeque M\\
+    Product Lead&Test Engineer\\
+    Nuevalgo Solutions Pvt Ltd&Platform Engineering \& Technology\\
+    Trichur -  680 308&SunTec\\
+    Email: \mbox{\small\tt abhidsm@gmail.com}&Email: \mbox{\small\tt shafeeqmongam@gmail.com}\\
+    Ph: (+91)-8589-015153&Ph: (+91)-9809-655662
+  \end{tabular}
+\end{category}
+\end{document}
