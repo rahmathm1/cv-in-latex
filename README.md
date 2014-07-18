@@ -22,7 +22,7 @@ For complete TeX distribution (1.8GB)
 
 ## Compiling
 
-Just go to `cv-semk-latex/` and run
+Just go to `cv-rahmathullah-latex/` and run
 
 	make
 
