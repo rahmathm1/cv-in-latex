@@ -26,4 +26,11 @@ Just go to `cv-rahmathullah-latex/` and run
 
 	make
 
+## Windows
+
+	Install MikeTex from https://miktex.org/. Make sure its added to the evn variables.
+
+	Use `pdflatex cv-rahmathullah-m.en.tex` to generate pdf file from tex file.
+
+
 			
